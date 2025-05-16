@@ -34,8 +34,13 @@ app.get('/dashboard/:keypass', (req, res) => {
       description: 'Detailed description 1',
     },
     {
-      property1: 'value3',
+      property1: 'value4',
       property2: 'value4',
+      description: 'Detailed description 2',
+    },
+    {
+      property1: 'value2',
+      property2: 'value5',
       description: 'Detailed description 2',
     },
   ];
