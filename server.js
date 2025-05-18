@@ -29,54 +29,54 @@ app.get('/dashboard/:keypass', (req, res) => {
   // Dummy data example
   const entities = [
   {
-    property1: 'French Greeting',
+    property1: 'French',
     property2: 'Bonjour',
-    description: 'The most essential French greeting meaning "Hello". Used in both formal and informal contexts throughout the day until evening. Pronunciation: "bohn-zhoor". Example usage: "Bonjour, comment ça va?" (Hello, how are you?). Cultural note: In France, saying hello when entering small shops is considered polite.'
+    description: 'French is a Romance language spoken by over 300 million people worldwide. Known for its rich literary tradition and precise pronunciation, French is an official language in countries like France, Belgium, Canada, and several African nations.'
   },
   {
-    property1: 'Spanish Question',
-    property2: '¿Dónde está el baño?',
-    description: 'Critical travel phrase meaning "Where is the bathroom?". Pronunciation: "DON-deh es-TAH el BAN-yo". Regional variations exist - in some countries people say "los servicios" instead. This is often the first phrase learners practice when visiting Spanish-speaking countries.'
+    property1: 'Spanish',
+    property2: 'Hola',
+    description: 'Spanish, or Español, is the world\'s second-most spoken native language. It originated in Spain and is now the official language of most Latin American countries. Its rolling "r" sounds and expressive tone make it globally recognized.'
   },
   {
-    property1: 'Japanese Honorific',
-    property2: '-san',
-    description: 'The most common Japanese honorific suffix, added to names as a neutral-polite form of address. Similar to "Mr./Ms." but used more widely. Example: "Tanaka-san". Important cultural note: Never use honorifics when referring to yourself, as this would be considered arrogant.'
+    property1: 'Japanese',
+    property2: 'こんにちは (Konnichiwa)',
+    description: 'Japanese is spoken by over 125 million people, primarily in Japan. It uses three scripts: Hiragana, Katakana, and Kanji. Known for its polite speech levels and honorifics, it’s a language of subtlety and tradition.'
   },
   {
-    property1: 'German Emotion',
-    property2: 'Schadenfreude',
-    description: 'A complex German noun meaning pleasure derived from someone else\'s misfortune. Pronunciation: "SHAH-den-froy-duh". This loanword is used in English because no single-word equivalent exists. Demonstrates how language captures specific cultural concepts.'
+    property1: 'German',
+    property2: 'Hallo',
+    description: 'German is spoken in Germany, Austria, Switzerland, and other parts of Europe. Famous for its compound words and precise grammar, German is a key language in philosophy, science, and engineering.'
   },
   {
-    property1: 'Chinese Number',
-    property2: '8 (八)',
-    description: 'Considered the luckiest number in Chinese culture because it sounds like the word for "prosper" (发, fā). People pay premium prices for phone numbers or license plates containing 8s. During the Beijing Olympics, the opening ceremony began at 8:08 PM on 8/8/2008 for maximum auspiciousness.'
+    property1: 'Chinese (Mandarin)',
+    property2: '你好 (Nǐ hǎo)',
+    description: 'Mandarin Chinese is the world\'s most spoken native language. It uses characters instead of an alphabet, and its meaning often depends on tone. Mandarin is the official language of China and Taiwan.'
   },
   {
-    property1: 'English Tense',
-    property2: 'Present Perfect',
-    description: 'A verb tense formed with have/has + past participle (e.g., "I have eaten"). Used for actions that happened at an unspecified time or have present relevance. Common learner mistake: Using it with specific time markers ("I have seen him yesterday" is incorrect).'
+    property1: 'English',
+    property2: 'Hello',
+    description: 'English is the most widely spoken second language globally and the official language in over 50 countries. With roots in Anglo-Saxon and Latin, it’s known for its vast vocabulary and global influence.'
   },
   {
-    property1: 'Italian Gesture',
-    property2: 'Hand purse',
-    description: 'The iconic Italian gesture where fingers are bunched together and moved up and down. Meaning depends on context: can indicate "What do you want?", "What are you saying?", or "Perfect!" Demonstrates how much communication happens beyond words in language learning.'
+    property1: 'Italian',
+    property2: 'Ciao',
+    description: 'Italian is a Romance language famous for its musical intonation and emotional expressiveness. Spoken in Italy and parts of Switzerland, it’s known for its historical ties to art, opera, and Renaissance culture.'
   },
   {
-    property1: 'Arabic Letter',
-    property2: 'ع (Ayn)',
-    description: 'One of the most challenging Arabic letters for learners, representing a voiced pharyngeal fricative sound not found in English. Produced by constricting the throat muscles. Essential for words like "عرب" (Arab) and "علم" (knowledge). Many beginners substitute with a glottal stop at first.'
+    property1: 'Arabic',
+    property2: 'مرحبا (Marhaban)',
+    description: 'Arabic is spoken by over 400 million people in the Middle East and North Africa. It has a unique script written from right to left, and Classical Arabic remains the liturgical language of Islam.'
   },
   {
-    property1: 'Russian Word',
-    property2: 'Тоска (Toska)',
-    description: 'A Russian noun with no direct English translation, describing a deep spiritual anguish or melancholic longing. Famous author Vladimir Nabokov described it as "a sensation of great spiritual anguish, often without any specific cause." Shows how languages package emotions differently.'
+    property1: 'Russian',
+    property2: 'Привет (Privet)',
+    description: 'Russian is the most widely spoken Slavic language, known for its Cyrillic script and rich literary tradition. It’s spoken in Russia, Belarus, Kazakhstan, and across Eastern Europe and Central Asia.'
   },
   {
-    property1: 'Portuguese Sound',
-    property2: 'ão ending',
-    description: 'The nasal diphthong found in words like "pão" (bread) and "coração" (heart). Pronunciation resembles a nasal "ow" sound. A distinctive feature of Portuguese that learners often struggle with. Appears in many diminutives and affectionate terms like "irmão" (brother).'
+    property1: 'Portuguese',
+    property2: 'Olá',
+    description: 'Portuguese is a Romance language spoken in Portugal, Brazil, and parts of Africa and Asia. Brazilian Portuguese has distinct pronunciation and vocabulary differences compared to European Portuguese.'
   }
 ];
   res.json({
